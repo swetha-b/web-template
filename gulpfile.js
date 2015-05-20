@@ -197,7 +197,7 @@ gulp.task('server:e2e', function () {
   ], null, null, false);
 });
 
-gulp.task('watch', ['wiredep', 'scripts'], function () {
+gulp.task('watch', ['wiredep', 'scripts', 'styles'], function () {
   gulp.watch('bower.json', ['wiredep']);
 });
 
